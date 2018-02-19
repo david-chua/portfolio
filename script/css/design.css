@@ -1,0 +1,68 @@
+.namebox {
+  text-align: center;
+  width: 40%;
+  margin:0 auto;
+  font-size: 2em;
+  font-family:'Crete Round', 'serif';
+}
+
+.myName{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #13D1E3;
+}
+
+h1 a{
+
+  color: #000;
+}
+h1 a:hover{
+  text-decoration: none;
+}
+
+hr{
+  height: 5px;
+  background: #000;
+}
+
+.home{
+  margin-left: 15px;
+}
+
+.resume{
+  margin-right: 15px;
+}
+
+
+.nav-item{
+  font-family: 'Crete Round', serif;
+  font-size: 1.3em;
+}
+
+.nav-fill .nav-item{
+  display: flex;
+}
+
+#design_nav_area{
+  padding-top: 5px;
+  color: #000;
+}
+.nav-item:hover{
+  background-color: #13D1E3
+}
+
+.nav-pills .nav-link{
+  color: #000;
+}
+
+.design_down{
+  width:auto;
+}
+
+.design_link{
+  color: #000;
+}
+
+.design_link:hover{
+  text-decoration: none;
+}
