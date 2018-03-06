@@ -1,29 +1,36 @@
+/* Start OF THE NEW CSS */
 .namebox {
   text-align: center;
   width: 40%;
   margin:0 auto;
-  font-size: 2em;
   font-family:'Crete Round', 'serif';
+  padding-bottom: 25px;
+
 }
 
 .myName{
     margin-top: 20px;
     padding: 10px;
     background-color: #13D1E3;
+    box-shadow: 17px 13px;
 }
 
 h1 a{
-
+  font-size: 2em;
   color: #000;
+  font-family: 'Kanit', serif;
+
 }
 h1 a:hover{
   text-decoration: none;
 }
 
 hr{
-  height: 5px;
+  height: 1px;
   background: #000;
 }
+
+/* NavBar */
 
 .home{
   margin-left: 15px;
@@ -32,44 +39,63 @@ hr{
 .resume{
   margin-right: 15px;
 }
-
-
 .nav-item{
   font-family: 'Crete Round', serif;
-  font-size: 1.3em;
-}
-
-.nav-fill .nav-item{
-  display: flex;
-}
-
-#design_nav_area{
-  padding-top: 5px;
-  color: #000;
-}
-.nav-item:hover{
-  background-color: #13D1E3
+  font-size: 2em;
 }
 
 .nav-pills .nav-link{
   color: #000;
 }
 
-.design_down{
-  width:auto;
+.nav-link{
+  display: block;
 }
 
-.design_link{
-  color: #000;
+.nav-link:hover{
+  background-color: #13D1E3 !important;
+}
+.icon-bar{
+  background: #000;
+  padding: 2px;
 }
 
-.design_link:hover{
-  text-decoration: none;
+.navbar-header{
+  flex: auto;
+  justify-content: flex-end;
+}
+
+/* //DrownDown Menu */
+ @media only screen and (min-width:769px) {
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu {
+    position: relative !important;
+  }
+  .dropdown-submenu>.dropdown-menu {
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: -6px !important;
+    margin-left: -1px !important;
+    border-radius: 0 !important;
+  }
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block !important;
+  }
+
+  .dropdown-submenu>a:after {
+    display: block;
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-top: -18px;
+    right: 15px;
+    position: absolute;
+    font-weight: 300;
+  }
 }
 /*
 Rest of Page */
-
-
 .homepage_background{
   background: url('./images/portfolio.jpg');
   width: 100%;
@@ -91,12 +117,12 @@ Rest of Page */
   width: auto;
   height: auto;
   background: rgba(250,250,250,0.3);
-  padding: 8px;
+  padding: 20px;
   vertical-align: bottom;
 }
 
 .home_about h2{
-  font-size: 3em;
+  font-size: 5em;
   color: #FFF;
   text-align: left;
 }
@@ -154,3 +180,24 @@ Rest of Page */
   90%{  transform: rotateY(10deg) rotateX(-5deg) translateZ(-150px) translateX(170px) translateY(120px);}
   95%{  transform: rotateY(10deg) rotateX(-5deg) translateZ(-150px) translateX(100px) translateY(100px);}
   100%{  transform: rotateY(10deg) rotateX(-5deg) translateZ(-150px) translateX(70px) translateY(50px);}}
+
+
+/* Contact HTML */
+.form_photo{
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.form_box{
+  padding-left: 40px;
+  width: 600px;
+}
+
+.email_form{
+  font-size: 1.5em;
+  padding: 10px 0px;
+}
+
+.send_button{
+  background: #13D1E3;
+}

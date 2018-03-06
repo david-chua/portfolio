@@ -4,12 +4,15 @@
   margin:0 auto;
   font-size: 2em;
   font-family:'Crete Round', 'serif';
+  padding-bottom: 25px;
+
 }
 
 .myName{
     margin-top: 20px;
     padding: 10px;
     background-color: #13D1E3;
+    box-shadow: 14px 10px;
 }
 
 h1 a{
@@ -21,9 +24,11 @@ h1 a:hover{
 }
 
 hr{
-  height: 5px;
+  height: 14px;
   background: #000;
 }
+
+/* NavBar */
 
 .home{
   margin-left: 15px;
@@ -32,37 +37,19 @@ hr{
 .resume{
   margin-right: 15px;
 }
-
-
 .nav-item{
   font-family: 'Crete Round', serif;
-  font-size: 1.3em;
+  font-size: 2em;
 }
-
-.nav-fill .nav-item{
-  display: flex;
-}
-
-#design_nav_area{
-  padding-top: 5px;
-  color: #000;
-}
-.nav-item:hover{
-  background-color: #13D1E3
-}
-
 .nav-pills .nav-link{
   color: #000;
 }
-
-.design_down{
-  width:auto;
+.icon-bar{
+  background: #000;
+  padding: 2px;
 }
 
-.design_link{
-  color: #000;
-}
-
-.design_link:hover{
-  text-decoration: none;
+.navbar-header{
+  flex: auto;
+  justify-content: flex-end;
 }
