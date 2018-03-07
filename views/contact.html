@@ -21,75 +21,91 @@
 </head>
   <body>
     <!-- Header -->
-      <div class="namebox">
-        <div class="myName">
-          <h1 name_h1><a href="/">David Chua</a> </h1>
-        </div>
-      </div>
-
-    <hr>
-
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul id="navbar" class="nav nav-pills nav-fill">
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" href="/design" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/design">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/design">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/resume">Resume</a>
-          </li>
-        </ul>
+    <div class="namebox">
+      <div class="myName">
+        <h1 name_h1><a href="/">David Chua</a> </h1>
       </div>
     </div>
+    <hr>
+    <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul id="navbar" class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" href="/design" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/design">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/design">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/resume">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-<div class="form_photo">
-  <img src="../css/images/workhard.jpg" alt="work hard photo">
-</div>
+  <!-- Contact Stuff -->
+    <div class="contact-section">
+      <div class="form_photo">
+        <img src="../css/images/workhard.jpg" alt="work hard photo">
+      </div>
+
+      <div class="side-section">
+        <section >
+          <h1>Contact me</h1><br>
+          <p> If you have a project you would like me to work on or if you have something we could collaborate on, please feel free to get in touch. </p><br>
+          <div class="email_link">
+            <h3>E-mail:</h3><span><a href="mailto:dpchua.dev@gmail.com">dpchua.dev@gmail.com</a></span>
+          </div>
+          <hr>
+          <div  class="phone_area">
+            <h3>Phone:</h3><span>703-340-9150</span><br>
+          </div>
+          <hr>
+          <h3>On the web:</h3>
+          <a href="http://www.linkedin.com/in/dpchua" target="_blank"><img src="../css/images/linkedin.png" alt="LinkedIn Logo"></a>
+          <a href="https://www.github.com/david-chua" target="_blank"><img src="../css/images/github.png" alt="Github Logo"></a>
+          <a href="https://www.instagram.com/dp_chua/" target="_blank"><img src="../css/images/instagram.png" alt="Instagram Logo"></a>
+          <a href="https://whenlifebringsyoucode.wordpress.com/" target="_blank"><img src="../css/images/wordpress.png" alt="Wordpress Logo"></a>
+        </section>
+      </div>
+    </div>
 <!-- Form box -->
-<div class="form_box">
-  <form method="POST" action="https://formspree.io/dpchua.dev@gmail.com">
-    <label class="email_form"> Email:</label><br><input type="email" name="email" placeholder="Your email"><br>
-    <label class="email_form">Subject: </label><br><input type="text" name="subject" placeholder="subject"><br>
-    <label class="email_form">Message: </label><br><textarea class="form-control" rows="8" name="message" placeholder="Your message"></textarea><br>
-    <button class="btn-lg send_button" type="submit">Send</button>
-    <input type="hidden" name="_next" value="/success" />
-
-  </form>
-</div>
-
-
-
+    <div class="form_box">
+      <form method="POST" action="https://formspree.io/dpchua.dev@gmail.com">
+        <label class="email_form"> Email:</label><br><input type="email" name="email" placeholder="Your email" size="30"><br>
+        <label class="email_form">Subject: </label><br><input type="text" name="subject" placeholder="subject" size="30"><br>
+        <label class="email_form">Message: </label><br><textarea class="form-control" rows="8" name="message" placeholder="Your message"></textarea><br>
+        <button class="btn-lg send_button" type="submit">Send</button>
+        <input type="hidden" name="_next" value="/success" />
+      </form>
+    </div>
   </body>
-
 </html>

@@ -1,4 +1,8 @@
-/* Start OF THE NEW CSS */
+p {
+  font-size: 1.3em;
+}
+
+/* //First page */
 .namebox {
   text-align: center;
   width: 40%;
@@ -183,21 +187,131 @@ Rest of Page */
 
 
 /* Contact HTML */
-.form_photo{
-  padding-left: 40px;
-  margin-top: 30px;
-}
-
 .form_box{
+  clear: both;
   padding-left: 40px;
   width: 600px;
+  margin-bottom: 50px;
 }
 
 .email_form{
+  flex: none;
   font-size: 1.5em;
   padding: 10px 0px;
 }
 
 .send_button{
   background: #13D1E3;
+}
+
+
+.form_photo{
+  display: inline-block;
+  padding-left: 40px;
+  margin-top: 30px;
+  float: left;
+  margin-bottom: 30px;
+}
+.side-section{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+.email_link, .phone_area{
+  margin: 15px 0px;
+  font-size: 1.2em;
+}
+
+h3 span {
+  margin-top: 15px;
+}
+
+a img {
+  margin-right: 10px;
+}
+
+/* //form success page */
+.thankyou_success{
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+.thankyou_photo{
+  margin: 0 auto;
+}
+
+.thankyou_message{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+/* About Me CSS */
+.about_me_section{
+  text-align: center;
+}
+
+.hover_figure{
+  text-align: center;
+}
+
+.hover_figure figure {
+	position: relative;
+}
+.hover_figure figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover_figure figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+.about_paragraph{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: left;
+
+}
+.about_paragraph h1{
+  margin-left: 50px;
+  font-size: 2.2em;
+}
+
+.about_paragraph p{
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+
+.about_paragraph a{
+  color: #000;
+}
+
+.
 }
