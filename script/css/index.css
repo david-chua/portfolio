@@ -195,9 +195,10 @@ Rest of Page */
 }
 
 .email_form{
+  margin-top: 30px;
   flex: none;
   font-size: 1.5em;
-  padding: 10px 0px;
+
 }
 
 .send_button{
@@ -215,7 +216,7 @@ Rest of Page */
 .side-section{
   width: 500px;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 40px;
   display: inline-block;
   float: left;
   text-align: left;
@@ -313,5 +314,27 @@ a img {
   color: #000;
 }
 
-.
+.skills_gauge{
+  text-align: center;
+}
+
+.top_skills{
+  width: 24%;
+  float: left;
+  display:block;;
+  flex: none;
+}
+
+.top_skills_container{
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.top_skill_images{
+  width: 50px;
+  height: 50px;
+}
+
+.mongodb_icon{
+  width: 100px;
 }
