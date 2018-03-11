@@ -16,6 +16,11 @@
   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- D3.JS -->
+  <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+  <script src="../js/liquidFillGauge.js" language="JavaScript"></script>
 </head>
   <body>
     <!-- Header -->
@@ -58,9 +63,9 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/skills">Skills</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
           </li>
@@ -105,7 +110,79 @@
     PS. I'm also big on gaming and Japanese Anime, if it wasn't so obvious already.
   </p>
 
+  <div class="top_skills"><h1> My Top Skills </h1></div>
+  <div class="container">
+    <div class="row">
+      <div class="col js-col">
+      <h2> <img class="top_skill_images" src="../css/images/javascript.svg">JavaScript </h2>
+      <svg id="fillgauge1" width="150px" height="150" onclick="gauge1.update(NewValue());"></svg>
+      </div>
+
+      <div class="col">
+      <h2> <img class="top_skill_images" src="../css/images/nodejs.svg">Node.JS</h2>
+      <svg id="fillgauge2" width="150px" height="150" onclick="gauge2.update(NewValue());"></svg>
+      </div>
+
+      <div class="col">
+      <h2><img class="top_skill_images" src="../css/images/angular.svg"> AngularJS</h2>
+      <svg id="fillgauge3" width="150px" height="150" onclick="gauge3.update(NewValue());"></svg>
+      </div>
+
+      <div class="col">
+      <h2><img class="top_skill_images mongodb_icon" src="../css/images/mongodb.svg"></h2>
+      <svg id="fillgauge4" width="150px" height="150" onclick="gauge4.update(NewValue());"></svg>
+      </div>
+    </div>
   </div>
+
+    <div>
+      <div class="other_skills"><h1> My Other Skills </h1></div>
+      <div class="languages">
+        <ul>
+          <li class="title-start">Languages:</li>
+          <li><span>Java<span></li>
+          <li class="title-start">In progress</li>
+          <li><span>PHP</span></li>
+          <li><span>Python<span></li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="languages">
+        <ul>
+          <li class="title-start">Front End:</li>
+          <li><span>AngularJS 4<span></li>
+          <li><span>Bootstrap</span></li>
+          <li><span>D3.JS</span></li>
+          <li><span>JQuery</span></li>
+          <li class="title-start">In Progress</li>
+          <li><span>React</span></li>
+          <li><span>Redux</span></lli>
+        </ul>
+      </div>
+
+      <div class="languages">
+        <ul>
+          <li class="title-start">Back End, Middleware, and Databases:</li>
+          <li><span>Express.js<span></li>
+          <li><span>PostgreSQL</span></li>
+          <li><span>Rails</span></li>
+          <li><span>Ruby</span></li>
+          <li class="title-start">In Progress</li>
+          <li><span>MySQL</span></li>
+        </ul>
+      </div>
+
+      <div class="languages">
+        <ul>
+          <li class="title-start">CRM Platforms:</li>
+          <li><span>WordPress<span></li>
+          <li><span>Shopify</span></li>
+          <li><span>Salesforce</span></li>
+        </ul>
+      </div>
+
   </body>
     <script src="../js/index.js"></script>
+    <script src="../js/skills_gauge.js"></script>
 </html>
