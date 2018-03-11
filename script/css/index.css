@@ -347,8 +347,10 @@ a img {
 .languages li{
 display: inline-block;
 padding: 8px 5px;
-background-color: #313131;
-color: #999;
+background-color: #13D1E3;
+/* original color: #313131 */
+/* color: #999; */
+color: #000;
 border-width: 1px 1px 2px 1px;
 border-style: solid;
 border-color: #222;
@@ -361,7 +363,7 @@ line-height: 1em;
 box-shadow: 1px 1px 0 rgba(0,0,0,.25);
 margin: 3px;
 opacity: 1;
-cursor: pointer;
+cursor: grab;
 position: relative;
 overflow: hidden;
 }
