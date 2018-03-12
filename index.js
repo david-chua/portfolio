@@ -12,11 +12,6 @@ app.use(express.static(__dirname + '/script'));
 
 app.use(express.static(__dirname + '/files'));
 
-
-app.get('/skills', function(req,res){
-  res.sendFile(__dirname + "/views" + "/skills.html");
-});
-
 app.get('/design', function(req, res){
   res.sendFile(__dirname +'/views'+ '/design.html');
 });
