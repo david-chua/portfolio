@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Fonts - Crete Roud and Kanit -->
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Kanit" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <!-- Header -->
+      <div class="namebox">
+        <div class="myName">
+          <h1 name_h1><a href="/">David Chua</a> </h1>
+        </div>
+      </div>
+
+    <hr>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul id="navbar" class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" href="/design" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/design/portfolio">Portfolio</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/design">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resume">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <h1 class="design_portfolio">Website Portfolio </h1>
+    <div class="website_intro">
+    <h3 class="h3_portfolio"> Designing this website, I wanted to create something that highlights my current skillset. My initial portfolio page was a one page scroll. It was originally designed with inspiration of what was the trend at the time, which was a lot of Parallax scrolling in a one page setting.</h3>
+  </div>
+
+    <div class="old_portfolio">
+      <img src="../css/images/old_portfolio.png" alt="Old Portfolio Site">
+    </div>
+
+    <div class="website_intro additional_info">
+      <h3 class="h3_portfolio"> In designing this portfolio site, I wanted to further my process by incorporating CSS processors like Bootstrap, as well as actually using the classes that is used in the framework. On top of that, I wanted to create a multi-page website. It does contain a lot more info and is separated like modules. Similar to how I work in creating my full stack applications, I wanted to embody that feeling by separating my works like design, mobile applications, and web applications into separate pages.</h3>
+      <br>
+      <h3>Like most projects, some changes are required from the initial wireframe. During the creation of this portfolio site, I did make some changes in terms the design and how I thought it would make my portfolio stand out.</h3>
+    </div>
+
+    <div class="container old_portfolio_container">
+      <div class="row justify-content-md-center">
+        <div class="col skills_section">
+          <h2>Skills</h2>
+          <p>One of those changes that I actually removed during development is the skills page. In the design process, it seemed great at the time on how I should create a full skills page on the technology I learned and showcase my use of D3 and the bootstrap technology, but while designing it, It really just looked like logos of technologies without examples of how I used it. So I decide to scrap this page completely. It didn't do much to my goal of showcasing what I know. I feel that my addition of the skills in the about me completed that missing piece and allowed me to just list my skillset and decrease the need for websites to load a lot of images. </p>
+        </div>
+        <div class="col skills_section">
+          <img class="skils_image" src="../css/images/skills.png" alt="Contact">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container old_portfolio_container">
+      <div class="row justify-content-md-center">
+        <div class="col contact_section">
+          <h2>Contact</h2>
+          <p>The second development change that I did was the contact page. I first wanted to create just a page where my social media links were showing and an email address that hooks up to a user's device email to send me an email directly to me. However, after doing a some research, I was sold into adding a form box and I think I was able to create a more welcoming vibe through it.</p>
+        </div>
+        <div class="col contact_section">
+          <img class="contact_image" src="../css/images/contact.png" alt="Contact">
+        </div>
+      </div>
+    </div>
+
+    <div class="website_intro additional_info challenges">
+    <h1> Challenges </h1>
+    <h3 class="h3_portfolio"> In terms of challenges in designing this app, there was actually very little trouble as I had gotten more proficient in using Sketch. So being able to create the items a lot quicker without stumbling on what tools I needed. I think the biggest problem in development was actually finding the icons. There were some icons that I wanted but didn't have the technologies that I was looking for so I had to resort to using PNG files and just creating a width and height to standardize my icons.
+    </h3>
+  </div>
+
+  </body>
+    <script src="../js/index.js"></script>
+</html>

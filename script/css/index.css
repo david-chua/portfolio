@@ -222,6 +222,11 @@ Rest of Page */
   text-align: left;
 }
 
+.side-section img{
+  height: 50px;
+  width: 50px;
+}
+
 .email_link, .phone_area{
   margin: 15px 0px;
   font-size: 1.2em;
@@ -367,68 +372,95 @@ cursor: grab;
 position: relative;
 overflow: hidden;
 }
-/*
-.top_skills_container{
+
+/* DESIGN CSS */
+
+.design_columns{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.portfolio_design_container{
+  margin-top: 40px;
+}
+.portfolio_image{
+  margin-top: 50px;
+  height: 280px;
+  width: 450px;
+  border: 1px solid black;
+}
+
+.unitour_image, .aquacycle_image{
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.design_examples{
+    margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.top_skills{
-  width: 240px;
-  float: left;
-  display: both;
+.learn_more_button{
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 12px;
 
-} */
-
-
-/* Skills  */
-
-
-/* .top_skills{
-  width: 24%;
-  float: left;
-  display:block;
 }
 
-.top_skills_container{
+/* DESIGN - PORTFOLIO PAGE */
+.design_portfolio{
+  text-align: center;
+  font-family: 'Kanit', serif;
+}
+
+.design_portfolio h3{
+  text-align: center;
+  font-family: 'Kanit', serif;
+}
+
+.website_intro{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.old_portfolio{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 400px;
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+.old_portfolio img{
   margin: 0 auto;
   display: block;
-  text-align: center;
 }
 
-.top_skill_images{
-  width: 50px;
-  height: 50px;
+.additional_info{
+  margin-top: 50px;
 }
 
-.mongodb_icon{
-  width: 100px;
+.old_portfolio_container{
+  margin-top: 80px;
 }
 
-
-.skills_gauge{
-  text-align: center;
-  vertical-align: center;
-  height: 500px;
-  justify-content: center;
-}
-
-
-/* //Other skill_images */
-/*
-.languages, .front_end_skill, .back_end_skill, .crm_platforms, .tech_tools, .marketing_tools{
-  padding-top: 50px;
-  text-align: center;
+.skills_section img, .contact_section img{
   display: block;
-  clear: both;
-}
-
-.languages h1, .front_end_skill h1, .back_end_skill h1, .crm_platforms h1, .tech_tools h1, .marketing_tools h1{
+  margin: auto;
   text-align: center;
+  border: 1px solid black;
 }
 
-.skill_images{
-  width: 100px;
-  height: 100px;
-  margin: 30px 50px;
+.challenges{
+  margin-bottom: 50px;
+}
 
-} */ */
+.h3_portfolio{
+  font-family: 'Crete Round', serif;
+}
