@@ -410,13 +410,8 @@ overflow: hidden;
 
 }
 
-/* DESIGN - PORTFOLIO PAGE */
+/* DESIGN - PORTFOLIO PAGE*/
 .design_portfolio{
-  text-align: center;
-  font-family: 'Kanit', serif;
-}
-
-.design_portfolio h3{
   text-align: center;
   font-family: 'Kanit', serif;
 }
@@ -426,7 +421,6 @@ overflow: hidden;
   margin: 0 auto;
   text-align: center;
 }
-
 
 .old_portfolio{
   width: 80%;
@@ -463,4 +457,28 @@ overflow: hidden;
 
 .h3_portfolio{
   font-family: 'Crete Round', serif;
+}
+
+/* UNITOUR DESIGN */
+
+.unitour_portfolio{
+  text-align: center;
+  font-family: 'Kanit', serif;
+}
+
+.h3_unitour{
+  font-family: 'Crete Round', serif;
+}
+
+.embedded_low_unitour{
+  margin: 0 auto;
+  display: block;
+}
+
+.personas{
+  margin-top: 40px;
+}
+
+.wireframe{
+  text-align: center;
 }
