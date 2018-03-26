@@ -385,9 +385,6 @@ overflow: hidden;
   margin-bottom: 50px;
 }
 
-.portfolio_design_container{
-  margin-top: 40px;
-}
 .portfolio_image{
   margin-top: 50px;
   height: 280px;
@@ -401,10 +398,12 @@ overflow: hidden;
 }
 
 .design_examples{
-    margin-top: 50px;
-  width: 80%;
-  margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
+}
+
+.services-paragraph{
+  padding-top: 5px;
 }
 
 .learn_more_button{
