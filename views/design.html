@@ -16,14 +16,22 @@
   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- D3.JS -->
+  <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+  <script src="../js/liquidFillGauge.js" language="JavaScript"></script>
+
+  <link rel="icon" type="image/png" href="../css/images/fav_icon.png" />
 </head>
   <body>
     <!-- Header -->
-      <div class="namebox">
-        <div class="myName">
-          <h1 name_h1><a href="/">David Chua</a> </h1>
-        </div>
+    <div class="namebox">
+      <div class="myName">
+        <!-- <h1 name_h1><a href="/">David Chua</a> </h1> -->
+        <a href="/"><img class="logo" src="../css/images/logo_sm.png" alt="Unitour App"></a>
       </div>
+    </div>
 
     <hr>
 
@@ -47,7 +55,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="/design/portfolio">Portfolio</a>
               <a class="dropdown-item" href="/design/unitour">Unitour</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="/design/aquacycle">Aquacycle</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -83,12 +91,12 @@
           </div>
 
            <div class="col design_examples">
-            <img class="unitour_image" src="../css/images/Unitour.png" alt="Unitour App">
+             <a href="/design/unitour"><img class="unitour_image" src="../css/images/Unitour.png" alt="Unitour App"></a>
               <div class="services-paragraph">
                 <h2> Unitour</h2>
                 <p>UX design mobile app project involving research, wireframes, and prototypes for a hypothetical startup idea involving VR college tours.</p>
               </div>
-              <button class="learn_more_button"><a href="/design/portfolio"> Learn more</a></button>
+              <button class="learn_more_button"><a href="/design/unitour"> Learn more</a></button>
               <hr>
           </div>
 
@@ -97,7 +105,7 @@
             <div class="services-paragraph">
               <h2>Aquacycle</h2>
               <p> A mini project on creating a user log-in using Sketch for a startup idea in terms of incorporating a log-in workflow as well as signup</p>
-              <button class="learn_more_button"> Learn more</button>
+              <button class="learn_more_button"><a href="/design/aquacycle" Learn more</button>
             </div>
             <hr>
           </div>

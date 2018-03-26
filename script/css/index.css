@@ -15,9 +15,14 @@ p {
 .myName{
     margin-top: 20px;
     padding: 10px;
-    background-color: #13D1E3;
-    box-shadow: 17px 13px;
+    background-color: #FFF;
+    /* box-shadow: 17px 13px; */
 }
+
+/* .logo{
+  width: 312px;
+  height: 199px;
+} */
 
 h1 a{
   font-size: 2em;
@@ -411,6 +416,9 @@ overflow: hidden;
 }
 
 /* DESIGN - PORTFOLIO PAGE*/
+.portfolio_start{
+  padding-top: 40px;
+}
 .design_portfolio{
   text-align: center;
   font-family: 'Kanit', serif;
@@ -461,6 +469,10 @@ overflow: hidden;
 
 /* UNITOUR DESIGN */
 
+.unitour_page{
+  padding-top: 40px;
+}
+
 .unitour_portfolio{
   text-align: center;
   font-family: 'Kanit', serif;
@@ -470,15 +482,45 @@ overflow: hidden;
   font-family: 'Crete Round', serif;
 }
 
-.embedded_low_unitour{
+.embedded_low_unitour, .embedded_hi_unitour{
   margin: 0 auto;
   display: block;
+}
+
+.embedded{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .personas{
   margin-top: 40px;
 }
 
-.wireframe{
+.wireframe, .wireframe_info, .lowfi_info{
+  text-align: center;
+}
+
+.research_info, .wireframe_div{
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* AQUACYCLE */
+.aquacycle_start{
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Kanit', serif;
+}
+
+.aquacycle_info{
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }

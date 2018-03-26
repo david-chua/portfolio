@@ -20,6 +20,10 @@ app.get('/design/unitour', function(req, res){
   res.sendFile(__dirname +'/views'+ '/unitour.html');
 });
 
+app.get('/design/aquacycle', function(req, res){
+  res.sendFile(__dirname +'/views'+ '/aquacycle.html');
+});
+
 app.get('/design', function(req, res){
   res.sendFile(__dirname +'/views'+ '/design.html');
 });
