@@ -28,6 +28,18 @@ app.get('/design', function(req, res){
   res.sendFile(__dirname +'/views'+ '/design.html');
 });
 
+app.get('/projects/mobile', function(req, res){
+  res.sendFile(__dirname +'/views'+ '/mobile.html');
+});
+
+app.get('/projects/mobile/hello_udacity', function(req, res){
+  res.sendFile(__dirname +'/views'+ '/hello_udacity.html');
+});
+
+app.get('/projects/web', function(req, res){
+  res.sendFile(__dirname +'/views'+ '/web.html');
+});
+
 
 
 app.get('/projects', function(req,res){

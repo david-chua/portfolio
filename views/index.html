@@ -56,8 +56,13 @@
               <a class="dropdown-item" href="/design/aquacycle">Aquacycle</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/projects">Projects</a>
+          <li class="nav-item dropdown">
+            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-target="dropdown_target" href="/projects">Projects</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+              <a class="dropdown-item" href="/projects/mobile">Mobile Applications</a>
+              <a class="dropdown-item" href="/projects/web">Web Applications</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
@@ -68,51 +73,6 @@
         </ul>
       </div>
     </nav>
-
-
-    <!-- Navigation -->
-    <!-- <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul id="navbar" class="nav nav-pills nav-fill">
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" href="/design" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/design/portfolio">Portfolio</a>
-              <a class="dropdown-item" href="/design/unitour">Unitour</a>
-              <a class="dropdown-item" href="/design/aquacycle">Aquacycle</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/design/portfolio">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/resume">Resume</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    </nav> -->
-
-
 
 <!-- //Back ground of pictures -->
 

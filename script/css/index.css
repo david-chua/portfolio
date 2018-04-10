@@ -1,5 +1,6 @@
 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  font-family: 'PT Serif', serif;
 }
 
 h1,h2 {
@@ -314,21 +315,8 @@ a img {
   margin: 0 auto;
   margin-bottom: 50px;
   text-align: left;
-
-}
-.about_paragraph h1{
-  margin-left: 50px;
-  font-size: 2.2em;
 }
 
-.about_paragraph p{
-  font-size: 1.2em;
-  margin-left: 50px;
-}
-
-.about_paragraph a{
-  color: #000;
-}
 
 
 /* About Skills  */
@@ -364,8 +352,6 @@ a img {
 display: inline-block;
 padding: 8px 5px;
 background-color: #13D1E3;
-/* original color: #313131 */
-/* color: #999; */
 color: #000;
 border-width: 1px 1px 2px 1px;
 border-style: solid;
@@ -466,9 +452,6 @@ overflow: hidden;
   margin-bottom: 50px;
 }
 
-.h3_portfolio{
-}
-
 /* UNITOUR DESIGN */
 
 .unitour_page{
@@ -479,7 +462,8 @@ overflow: hidden;
   text-align: center;
 }
 
-.h3_unitour{
+.h4_unitour{
+  margin-top: 30px;
 }
 
 .embedded_low_unitour, .embedded_hi_unitour{
@@ -522,4 +506,32 @@ overflow: hidden;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+/* PROJECTS PAGE */
+
+.mobile_app_title{
+  text-align: center;
+}
+#myCarousel{
+  background: url('./images/blue_wood.jpg');
+  width: 80%;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#myCarousel img{
+  text-align: center;
+  margin: 0 auto;
+}
+
+ol.carousel-indicators{
+  margin: 0 auto;
+}
+
+.item_desc{
+  margin: 20px 0px;
+  color: white;
 }

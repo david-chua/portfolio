@@ -29,41 +29,39 @@
     <div class="namebox">
       <div class="myName">
         <!-- <h1 name_h1><a href="/">David Chua</a> </h1> -->
-        <a href="/"><img class="logo" src="../css/images/logo_sm.png" alt="Unitour App"></a>
+        <a href="/"><img class="logo" src="../css/images/logo_sm.png" alt="Logo"></a>
       </div>
     </div>
 
     <hr>
+ <!-- // New Nav -->
+    <nav class="navbar navbar-expand-md  navbar-light ">
+      <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+      </div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul id="navbar" class="nav nav-pills nav-fill">
+      <div class="collapse navbar-collapse " id="collapse_target">
+        <ul class="navbar-nav justify-content-between">
           <li class="nav-item">
             <a class="nav-link" href="/about">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" href="/design" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-target="dropdown_target" href="/design">Design</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
               <a class="dropdown-item" href="/design/portfolio">Portfolio</a>
               <a class="dropdown-item" href="/design/unitour">Unitour</a>
               <a class="dropdown-item" href="/design/aquacycle">Aquacycle</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/design">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-target="dropdown_target" href="/projects">Projects</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+              <a class="dropdown-item" href="/projects/mobile">Mobile Applications</a>
+              <a class="dropdown-item" href="/projects/web">Web Applications</a>
             </div>
           </li>
           <li class="nav-item">
@@ -74,13 +72,13 @@
           </li>
         </ul>
       </div>
-    </div>
     </nav>
+
     <div class="portfolio_start">
       <h1 class="design_portfolio">Website Portfolio </h1>
     </div>
     <div class="website_intro">
-    <h3 class="h3_portfolio"> Designing this website, I wanted to create something that highlights my current skillset. My initial portfolio page was a one page scroll. It was originally designed with inspiration of what was the trend at the time, which was a lot of Parallax scrolling in a one page setting.</h3>
+    <h4 class="h3_portfolio"> Designing this website, I wanted to create something that highlights my current skillset. My initial portfolio page was a one page scroll. It was originally designed with inspiration of what was the trend at the time, which was a lot of Parallax scrolling in a one page setting.</h4>
     </div>
 
     <div class="old_portfolio">
@@ -88,9 +86,9 @@
     </div>
 
     <div class="website_intro additional_info">
-      <h3 class="h3_portfolio"> In designing this portfolio site, I wanted to further my process by incorporating CSS processors like Bootstrap, as well as actually using the classes that is used in the framework. On top of that, I wanted to create a multi-page website. It does contain a lot more info and is separated like modules. Similar to how I work in creating my full stack applications, I wanted to embody that feeling by separating my works like design, mobile applications, and web applications into separate pages.</h3>
+      <h4 class="h3_portfolio"> In designing this portfolio site, I wanted to further my process by incorporating CSS processors like Bootstrap, as well as actually using the classes that is used in the framework. On top of that, I wanted to create a multi-page website. It does contain a lot more info and is separated like modules. Similar to how I work in creating my full stack applications, I wanted to embody that feeling by separating my works like design, mobile applications, and web applications into separate pages.</h4>
       <br>
-      <h3>Like most projects, some changes are required from the initial wireframe. During the creation of this portfolio site, I did make some changes in terms the design and how I thought it would make my portfolio stand out.</h3>
+      <h4>Like most projects, some changes are required from the initial wireframe. During the creation of this portfolio site, I did make some changes in terms the design and how I thought it would make my portfolio stand out.</h4>
     </div>
 
     <div class="container old_portfolio_container">
@@ -120,8 +118,8 @@
 
     <div class="website_intro additional_info challenges">
     <h1> Challenges </h1>
-    <h3 class="h3_portfolio"> In terms of challenges in designing this app, there was actually very little trouble as I had gotten more proficient in using Sketch. So being able to create the items a lot quicker without stumbling on what tools I needed. I think the biggest problem in development was actually finding the icons. There were some icons that I wanted but didn't have the technologies that I was looking for so I had to resort to using PNG files and just creating a width and height to standardize my icons.
-    </h3>
+    <h4 class="h3_portfolio"> In terms of challenges in designing this app, there was actually very little trouble as I had gotten more proficient in using Sketch. So being able to create the items a lot quicker without stumbling on what tools I needed. I think the biggest problem in development was actually finding the icons. There were some icons that I wanted but didn't have the technologies that I was looking for so I had to resort to using PNG files and just creating a width and height to standardize my icons.
+    </h4>
   </div>
 
   </body>
