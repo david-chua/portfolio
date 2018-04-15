@@ -513,18 +513,31 @@ overflow: hidden;
 .mobile_app_title{
   text-align: center;
 }
-#myCarousel{
-  background: url('./images/blue_wood.jpg');
+#myCarousel, #webCarousel{
+  background: url('./images/black_bg.jpg');
   width: 80%;
-  height: 550px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
-#myCarousel img{
+
+#myCarousel{
+  height: 550px;
+}
+
+#webCarousel{
+  height: 800px;
+}
+
+#myCarousel img, #webCarousel img{
   text-align: center;
   margin: 0 auto;
+  vertical-align: center;
+}
+
+#webCarousel img{
+    height: 600px;
 }
 
 ol.carousel-indicators{

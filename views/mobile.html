@@ -1,1 +1,81 @@
-<h1> Hello Mobile </h1>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Fonts - PT Serif & Merriweather-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|PT+Serif" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- D3.JS -->
+  <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+  <script src="../js/liquidFillGauge.js" language="JavaScript"></script>
+
+  <link rel="icon" type="image/png" href="../css/images/fav_icon.png" />
+</head>
+  <body>
+    <!-- Header -->
+    <div class="namebox">
+      <div class="myName">
+        <!-- <h1 name_h1><a href="/">David Chua</a> </h1> -->
+        <a href="/"><img class="logo" src="../css/images/logo_sm.png" alt="Logo"></a>
+      </div>
+    </div>
+
+    <hr>
+ <!-- // New Nav -->
+    <nav class="navbar navbar-expand-md  navbar-light ">
+      <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse " id="collapse_target">
+        <ul class="navbar-nav justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a onclick="javascript:location.href='/design'" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-target="dropdown_target" href="/design">Design</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+              <a class="dropdown-item" href="/design/portfolio">Portfolio</a>
+              <a class="dropdown-item" href="/design/unitour">Unitour</a>
+              <a class="dropdown-item" href="/design/aquacycle">Aquacycle</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a onclick="javascript:location.href='/projects'" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" data-target="dropdown_target" href="/projects">Projects</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+              <a class="dropdown-item" href="/projects/mobile">Mobile Applications</a>
+              <a class="dropdown-item" href="/projects/web">Web Applications</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resume">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<h1> Mobile</h1>
+
+  </body>
+    <script src="../js/index.js"></script>
+</html>
