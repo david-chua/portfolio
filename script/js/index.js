@@ -14,3 +14,10 @@ jQuery(function($) {
 
   }
 });
+
+
+$(function() {
+    $( "#trainingButton" ).click(function() {
+        $( "#trainingForGainsWebInfo" ).toggle();
+    });
+});
