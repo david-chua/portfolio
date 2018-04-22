@@ -555,6 +555,7 @@ ol.carousel-indicators{
 }
 
 .web_container{
+  clear:both;
   width: 85%;
   margin: 0 auto;
   margin-top: 70px;
@@ -566,23 +567,28 @@ ol.carousel-indicators{
   height: 300px;
 }
 
-.trainingForGains_web:hover, .eastcfashion_web:hover{
+.trainingForGains_web:hover, .eastcfashion_web:hover, .meraki_web:hover, .topshelf_web:hover, .myreads_web:hover, .cooking_web:hover{
   transform: scale(1.3)
 }
 
+
+/* // Training For Gains Information Page */
 #trainingForGainsWebInfo{
-  width: 100%;
-  /* display: none; */
+  width: 80%;
+  display: none;
   margin: 0 auto;
   margin-top: 50px;
 
 }
 
 .web_title{
+  text-align: center;
   font-size: 5em;
+  color: rgb(7,63,120);
 }
 
-#trainingForGainsWebInfo img{
+#trainingForGainsWebInfo .training_home, #eastcFashionInfo .fashion_home{
+  text-align: center;
   width: 500px;
   height: 400px;
   float: left;
@@ -607,7 +613,6 @@ ol.carousel-indicators{
 
 .site_button a{
   color: #FFF;
-
 }
 
 .site_button a:visited{
@@ -617,8 +622,9 @@ ol.carousel-indicators{
 .trainingApp_challenge{
   clear: both;
   margin: 0 auto;
+  margin-bottom: 30px;
   text-align: left;
-  width: 70%;
+  width: 75%;
   background: #D3D3D3;
   padding: 20px;
 }
@@ -626,4 +632,39 @@ ol.carousel-indicators{
 .trainingApp_challenge h1{
   font-size: 3.4em;
   text-align: center;
+}
+
+
+#trainingCarousel{
+  background: black;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.training_desc h1{
+  color: #FFF;
+}
+
+#trainingCarousel img{
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 400px;
+}
+
+.close_div{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* // EASTC Fashion */
+#eastcFashionInfo{
+  width: 80%;
+  /* display: none; */
+  margin: 0 auto;
+  margin-top: 50px;
 }

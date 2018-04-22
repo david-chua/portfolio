@@ -21,3 +21,15 @@ $(function() {
         $( "#trainingForGainsWebInfo" ).toggle();
     });
 });
+
+$(function() {
+    $( "#eastfashionButton" ).click(function() {
+        $( "#eastcFashionInfo" ).toggle();
+    });
+});
+
+$(function(){
+  $(".close_training_button").click(function(){
+    $("#trainingForGainsWebInfo").toggle();
+  });
+});

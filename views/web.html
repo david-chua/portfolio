@@ -74,50 +74,184 @@
       </div>
     </nav>
 
+    <!-- First Set of Projects -->
     <div class="web_container">
       <div class="row web_row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples trainingForGains_web">
+          <h3>Training For Gains</h3>
           <img src="../css/images/trainingforgains_mac.png" alt="Training For Gains - Computer Image">
-          <p class=""> Workout Logging Application  <br>
+          <p> Workout Logging Application  <br>
             Technologies Used: Ruby on Rails, Node.JS, MongoDB, HTML/CSS, AngularJS</p>
           <button id="trainingButton"> More Info</button>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples eastcfashion_web">
+          <h3>EastC Fashion</h3>
           <img src="../css/images/eastcfashion_mac.png" alt="EastC Fashion - Computer Image">
-          <p class=""> Shopify store for fashion <br>
-            Technologies Used: Shopify, HTML/CSS, photoshop,  plugins</p>
+          <p> Shopify store for fashion <br>
+            Technologies Used: Shopify, HTML/CSS, Photoshop,plugins</p>
+          <button id="eastfashionButton">More Info</button>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples meraki_web">
+          <h3>Meraki Creative Studio</h3>
           <img src="../css/images/meraki_mac.png" alt="Meraki Creative Studio">
+          <p> WordPress Agency <br>
+            Technologies Used: WordPress, PHP, HTML/CSS, Photoshop, Bluehost, Flywheel, plugins</p>
+          <button id="merakiButton">More Info</button>
         </div>
 
-        <div id="trainingForGainsWebInfo">
-          <hr>
-          <h1 class="web_title"> Training For Gains </h1>
-          <img src="../css/images/training_for_gains.png" alt="Training For Gains">
+      </div><!--web row -->
+    </div> <!--Web container -->
 
-          <div class="web_paragraph_div">
 
-            <p class="web_paragraph_info"> <br><br>Inspired from using the gym and seeing people still using pen and pad to keep track of their progress, I decided to create a workout logging application that will keep track of a person's workout routine.
-            <br>
-            <br>
-            The Project was done with the following technologies: Ruby on Rails, PostgreSQL, Node.JS, Express.JS, AngularJS, and HTML/CSS, & Bootstrap </p>
+    <!-- /// Training For Gains /// -->
+    <div id="trainingForGainsWebInfo">
+        <hr>
+        <h1 class="web_title"> Training For Gains </h1>
+        <img class="training_home" src="../css/images/trainingforgains_mac.png" alt="Training For Gains">
 
-            <button class="site_button"> <a href="https://gains-for-days.herokuapp.com/" target="_blank">Live WebSite</a></button>
-          <div>
+        <div class="web_paragraph_div">
+
+          <p class="web_paragraph_info"> <br><br>Inspired from using the gym and seeing people still using pen and pad to keep track of their progress, I decided to create a workout logging application that will keep track of a person's workout routine.
+          <br>
+          <br>
+          The Project was done with the following technologies: Ruby on Rails, PostgreSQL, Node.JS, Express.JS, AngularJS, and HTML/CSS, & Bootstrap </p>
+
+          <button class="site_button"> <a href="https://gains-for-days.herokuapp.com/" target="_blank">Live WebSite</a></button>
+        </div>
           <div class="trainingApp_challenge">
             <h1> The Challenges </h1>
-            <p>As this was my final project for General Assembly, it did prove to me my most challenging one. The project only had four days to be completed and it involved creating everything from the backend configuration with the models and their relations as well as creating the frontend with AngularJS. It was also the only project since Month 1 where I worked on a project individually.
+            <p>As this was my final project for General Assembly, it did prove to be my most challenging one. The project only had four days to be completed and it involved creating everything from the backend including configuring models, relations, as well as routings and authentication as well as creating the frontend with AngularJS. It was also the only project since Month 1 where I worked on a project individually as General Assembly valued collaboration.
             <br>
-            While it was challenging, it did allow me to be more have a better time management and make decisions regarding the process or how my project would turn out. Having an Most Viable Product(MVP) checklist helped in that regards as I was able to cross out functionalities that I met and focus on finishing the rest of the project that I had remaining before going back and fixing those that I could with the time remaining </p>
+            <br>
+            While it was challenging, it did allow me to improve my time management and make decisions regarding the process or how my project would turn out. Having a Most Viable Product(MVP) checklist helped in that regard as I was able to cross out functionalities that I met and focus on finishing the rest of the project that I had remaining before going back and improving the project with the time remaining </p>
+          </div> <!--Challenge -->
+
+        <div id="trainingCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#trainingCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#trainingCarousel" data-slide-to="1"></li>
+            <li data-target="#trainingCarousel" data-slide-to="2"></li>
+            <li data-target="#trainingCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <div class="training_desc">
+                  <h1>User Page</h1>
+                </div>
+                <img src="../css/images/training_user.png" alt="Training User Page">
+              </div>
+
+              <div class="item">
+                <div class="training_desc">
+                  <h1>Create Workout Page</h1>
+                </div>
+                <img src="../css/images/training_create_workout.png" alt="Training User Page">
+              </div>
+
+              <div class="item">
+                <div class="training_desc">
+                  <h1>Workout Info Page</h1>
+                </div>
+                <img src="../css/images/training_workout_info.png" alt="Workout Info Page">
+              </div>
+
+              <div class="item">
+                <div class="training_desc">
+                  <h1>Edit Workout Page</h1>
+                </div>
+                <img src="../css/images/training_edit.png" alt="Edit Workout Page">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#trainingCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#trainingCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        </div>
+
+          <div>
+            <h1> What's Next?</h1>
+            <p class="web_paragraph_info">Creating the app using the best practices I learned from General Assembly allowed me to be able to create an app that I can expand upon and tweak later on. <br><br>In terms of expanding the app, I have ideas in changing it into a calendar using Angular Calendar as well as adding in cardio as part of the workouts and even add in future workout reminders as functionalities if I decide to turn it into a phone app.  </p>
+          </div>
+
+          <div class="close_div">
+            <button class="close_training_button"> Close</button>
+          </div>
+
+    </div> <!--trainingForGainsWebInfo-->
+
+    <div id="eastcFashionInfo">
+      <hr>
+      <h1 class="web_title"> EastC Fashion - A Shopify Experience </h1>
+      <img class="fashion_home" src="../css/images/eastcfashion_mac.png" alt="Training For Gains">
+      <div class="web_paragraph_div">
+
+        <p class="web_paragraph_info"> <br><br>This freelance project was aimed at improving my design skills and putting my marketing skills to the test. It involved at not only revamping the entire Shopify website and making it much more shoppable but also becoming the online store's social media guru during the holiday time.
+        <br>
+        <br>
+        The Project was done with the following technologies: Photoshop, Shopify, HTML/CSS, Plugins </p>
 
 
+        <button class="site_button"> <a href="https://eastcfashion.com/" target="_blank">Live WebSite</a></button>
       </div>
+      <div class="trainingApp_challenge">
+        <h1> The Challenges </h1>
+        <p>This was my very first big freelance project. The process involved me actually being involved in doing a lot of fashion research. It helped that I was already working in retail at the time and already had years of experience in identifying the fashion trends.
+        <br>
+        <br>
+        I think the biggest challenge for this project was the fact that social media takes a lot more into account; doing the work as an influencer took time and a lot more thought than I had imagined. Being able to constantly post in social media on a daily basis meant that I was on my phone regularly and was always in contact with other influencers that I was trying to work with. Creating instagram post meant formulating the right word, posting at the right time, and making sure that I am able to reach the maximum people.
+        <br>
+        <br>
+        Facebook advertisements and Google Ads were another set of challenges. The advertisements had to be spent wisely and making sure that I am maximizing the ROIs meant that I had to choose the rights words to pay for and elminating those that failed to yield positive results. On top of that, I had to be able to identify which ads to run and which platform worked best.
+        <br>
+        <br>
+        For Google Adwords, I had to make sure that I set my SEOs correctly and maximized their results and for Facebook, I needed to make sure that I reach the correct audience. It helped that Facebook had an ability to create suggestions and figure out what target size I would be hitting with my ads and that helped a lot.
+        </p>
+      </div> <!--Challenge -->
     </div>
+
+    <!-- Second Set of Projects -->
+    <div class="web_container">
+        <div class="row web_row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples myreads_web">
+            <h3>My Reads</h3>
+            <img src="../css/images/myreads_mac.png" alt="My Reads App">
+            <p class=""> Book Category App<br>
+              Technologies Used: React, Udacity API, HTML/CSS</p>
+            <button id="myreadsButton"> More Info</button>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples topshelf_web">
+            <h3>Topshelf Imagination</h3>
+            <img src="../css/images/topshelf_mac.png" alt="Topshelf Imagination Computer Image">
+            <p class=""> Book Logging App<br>
+              Technologies Used: MongoDB, AngularJS, ExpressJS, Node.JS, Github, HTML/CSS</p>
+            <button id="topshelfButton"> More Info</button>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 web_examples cooking_web">
+            <h3> What's Cooking </h3>
+            <img src="../css/images/cooking_mac.png" alt="What's Cooking">
+            <p class=""> Weekly Food Logging App<br>
+              Technologies Used: MongoDB, AngularJS, ExpressJS, NodeJS, Github, HTML/CSS</p>
+            <button id="cookingButton"> More Info</button>
+          </div>
+
+        </div><!--web row -->
+    </div> <!--Web container -->
+
 
 
   </body>
