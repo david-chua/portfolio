@@ -15,7 +15,7 @@ jQuery(function($) {
   }
 });
 
-
+// Toggle Mac View More Button to show information
 $(function() {
     $( "#trainingButton" ).click(function() {
         $( "#trainingForGainsWebInfo" ).toggle();
@@ -28,8 +28,16 @@ $(function() {
     });
 });
 
+// Close Information Button
+//Close Training for Gains Info
 $(function(){
   $(".close_training_button").click(function(){
     $("#trainingForGainsWebInfo").toggle();
+  });
+});
+// Close EastC Fashion Info
+$(function(){
+  $(".close_fashion_button").click(function(){
+    $("#eastcFashionInfo").toggle();
   });
 });

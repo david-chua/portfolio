@@ -587,7 +587,7 @@ ol.carousel-indicators{
   color: rgb(7,63,120);
 }
 
-#trainingForGainsWebInfo .training_home, #eastcFashionInfo .fashion_home{
+#trainingForGainsWebInfo .training_home, #eastcFashionInfo .fashion_home, #myReadsInfo .myreads_home{
   text-align: center;
   width: 500px;
   height: 400px;
@@ -619,7 +619,7 @@ ol.carousel-indicators{
   color: #FFF;
 }
 
-.trainingApp_challenge{
+.challenge{
   clear: both;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -629,7 +629,7 @@ ol.carousel-indicators{
   padding: 20px;
 }
 
-.trainingApp_challenge h1{
+.challenge h1{
   font-size: 3.4em;
   text-align: center;
 }
@@ -663,6 +663,32 @@ ol.carousel-indicators{
 
 /* // EASTC Fashion */
 #eastcFashionInfo{
+  width: 80%;
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.adCollage{
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+}
+
+.fashion_div{
+  margin-top: 30px;
+}
+
+.fashion_result{
+  margin-top: 50px;
+}
+
+.fashion_result p{
+  text-align: left;
+  margin: 30px;
+}
+
+#myReadsInfo{
   width: 80%;
   /* display: none; */
   margin: 0 auto;
