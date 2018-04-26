@@ -587,7 +587,7 @@ ol.carousel-indicators{
   color: rgb(7,63,120);
 }
 
-#trainingForGainsWebInfo .training_home, #eastcFashionInfo .fashion_home, #myReadsInfo .myreads_home{
+#trainingForGainsWebInfo .training_home, #eastcFashionInfo .fashion_home, #myReadsInfo .myreads_home, #topshelfInfo .topshelf_home, #cookingInfo .cooking_home{
   text-align: center;
   width: 500px;
   height: 400px;
@@ -688,9 +688,56 @@ ol.carousel-indicators{
   margin: 30px;
 }
 
+/* // My Reads */
 #myReadsInfo{
   width: 80%;
-  /* display: none; */
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.clear{
+  clear: both;
+}
+
+/* //topshelf Information */
+#topshelfInfo{
+  width: 80%;
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.topshelf_images{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.topshelf_images img{
+  margin: 30px;
+  height: 600px;
+  width: 800px;
+}
+
+.topshelf_images p span{
+  color: rgb(7,63,120);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+.project_separator{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  width: 85%;
+}
+
+
+/* Cooking Info */
+
+#cookingInfo{
+  width: 80%;
+  display: none;
   margin: 0 auto;
   margin-top: 50px;
 }
