@@ -761,3 +761,9 @@ ol.carousel-indicators{
   margin: 0 auto;
   margin-top: 50px;
 }
+
+/* Mobile */
+.mobile_link{
+  font-size: 1.2em;
+  color: rgb(7,63,120);
+}
