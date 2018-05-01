@@ -49,6 +49,20 @@ $(function() {
     });
 });
 
+$(function() {
+    $( "#kogiButton" ).click(function() {
+        $( "#kogiInfo" ).toggle();
+    });
+});
+
+$(function() {
+    $( "#lolMathButton" ).click(function() {
+        $( "#lolInfo" ).toggle();
+    });
+});
+
+
+
 
 // Close Information Button
 //Close Training for Gains Info
@@ -82,5 +96,19 @@ $(function(){
 $(function(){
   $(".close_cooking_button").click(function(){
     $("#cookingInfo").toggle();
+  });
+});
+
+// Close Kogi Information
+$(function(){
+  $(".close_kogi_button").click(function(){
+    $("#kogiInfo").toggle();
+  });
+});
+
+//Close Lol Math information
+$(function(){
+  $(".close_lol_math_button").click(function(){
+    $("#lolInfo").toggle();
   });
 });
